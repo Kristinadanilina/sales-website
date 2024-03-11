@@ -3,27 +3,49 @@ padding: 0;
 margin:0;
 }
 
-
-.header {
-  background: #e9e0d2;
+.first-section {
+    background: #e9e0d2;
 
 }
+
+.site-header {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+}
+.logo {
+
+  color: #805d52;
+  font-weight:bold;
+
+
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 h1{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
+  font-style: italicS;
   color: #988b82;
   font-size: 40px;
-  padding: 120px 20px 5px 150px;
+  padding: 0 20px 0 0 ;
+  font-weight: 500;
   display: inline-block;
 }
 
  .first-text {
-  padding: 0 20px 20px 150px;
   font-family: "Montserrat", sans-serif;
   color: #714832;
+  padding: 0 0 5px 0;
+
 
  }
 
@@ -34,7 +56,10 @@ a {
   border-radius: 10px;
   height: 50px;
   width: 200px;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
+  font-size: 30px;
+
+
 }
 
 h2 {
@@ -47,7 +72,44 @@ text-align:center;
 font-size: 30px;
 }
 
+.features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  color: #714832;
+  font-size: 20px;
+
+}
+
+
 .third-section {
   background: #e9e0d2;
+
+}
+
+.gift {
+  display: flex;
+ justify-content: space-evenly;
+}
+
+.gift-text {
+  border: 3px solid  #714832;
+  border-radius: 15px;
+  height: 230px;
+  padding: 0 20px 20px 20px;
+}
+
+
+
+.text {
+  text-align:justify;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-evenly;
 
 }
